@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="coresapp.Resources.Theme.BlueTheme">
+
+    <Color x:Key="Texto">#B4CED9</Color>
+    <Color x:Key="TextoAlternativo">#0568A6</Color>
+    <Color x:Key="Fundo">#1A2440</Color>
+    <Color x:Key="FundoAlternativo">#0D0B09</Color>
+
+</ResourceDictionary>

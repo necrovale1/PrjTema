@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="coresapp.MainPage"
+             BackgroundColor="{DynamicResource Fundo}">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="10,0"
+            Spacing="15">
+                        
+            <Label
+                Text="App Temas Coloridos"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                FontSize="25"
+                TextColor="{DynamicResource Texto}"/>
+
+            <Button
+               x:Name="blue"
+               Text="Tema Azul"
+               Clicked="blue_Clicked"
+               FontSize="20"
+               MaximumWidthRequest="200"
+               BackgroundColor="{DynamicResource FundoAlternativo}"
+               TextColor="{DynamicResource TextoAlternativo}"/>
+
+            <Button
+               x:Name="red"
+               Text="Tema Vermelho" 
+               Clicked="red_Clicked"
+               FontSize="20"
+               MaximumWidthRequest="200"
+               BackgroundColor="{DynamicResource FundoAlternativo}"
+               TextColor="{DynamicResource TextoAlternativo}"/>
+
+            <Button
+               x:Name="dark"
+               Text="Tema Escuro"
+               Clicked="dark_Clicked"
+               FontSize="20"
+               MaximumWidthRequest="200"
+               BackgroundColor="{DynamicResource FundoAlternativo}"
+               TextColor="{DynamicResource TextoAlternativo}"/>
+            
+            <Button
+            x:Name="light"
+            Text="Tema Claro"
+            Clicked="light_Clicked"
+            FontSize="20"
+            MaximumWidthRequest="200"
+            BackgroundColor="{DynamicResource FundoAlternativo}"
+            TextColor="{DynamicResource TextoAlternativo}"/>
+
+            <Button
+            x:Name="green"
+            Text="Tema Verde"
+            Clicked="green_Clicked"
+            FontSize="20"
+            MaximumWidthRequest="200"
+            BackgroundColor="{DynamicResource FundoAlternativo}"
+            TextColor="{DynamicResource TextoAlternativo}"/>
+
+            <Button
+            x:Name="coffee"
+            Text="Tema Café"
+            Clicked="coffee_Clicked"
+            FontSize="20"
+            MaximumWidthRequest="200"
+            BackgroundColor="{DynamicResource FundoAlternativo}"
+            TextColor="{DynamicResource TextoAlternativo}"/>
+
+            <Button
+           x:Name="default"
+           Text="Default"
+           Clicked="default_Clicked"
+           FontSize="20"
+           MaximumWidthRequest="200"
+           BackgroundColor="{DynamicResource FundoAlternativo}"
+           TextColor="{DynamicResource TextoAlternativo}"/>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

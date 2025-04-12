@@ -5,7 +5,7 @@
 
     <Color x:Key="Texto">#F2C9BB</Color>
     <Color x:Key="TextoAlternativo">#ED7E65</Color>
-    <Color x:Key="Fundo">#40072C</Color>
+    <Color x:Key="Fundo">#a4133c</Color>
     <Color x:Key="FundoAlternativo">#590E1C</Color>
     
 </ResourceDictionary>

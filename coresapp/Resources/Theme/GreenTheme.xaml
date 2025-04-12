@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="coresapp.Resources.Theme.GreenTheme">
 
-    <Color x:Key="Texto">#64CE8F</Color>
-    <Color x:Key="TextoAlternativo">#03A63C</Color>
-    <Color x:Key="Fundo">#01260E</Color>
-    <Color x:Key="FundoAlternativo">#292C03</Color>
+    <Color x:Key="Texto">#d8f3dc</Color>
+    <Color x:Key="TextoAlternativo">#1b4332</Color>
+    <Color x:Key="Fundo">#2d6a4f</Color>
+    <Color x:Key="FundoAlternativo">#52b788</Color>
     
 </ResourceDictionary>

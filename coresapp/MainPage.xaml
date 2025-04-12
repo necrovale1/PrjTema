@@ -6,16 +6,16 @@
 
     <ScrollView>
         <VerticalStackLayout
-            Padding="10,0"
+            Padding="10"
             Spacing="15">
-                        
+
             <Label
                 Text="App Temas Coloridos"
                 HorizontalTextAlignment="Center"
                 VerticalTextAlignment="Center"
                 FontSize="25"
                 TextColor="{DynamicResource Texto}"/>
-
+            
             <Button
                x:Name="blue"
                Text="Tema Azul"
@@ -34,7 +34,8 @@
                BackgroundColor="{DynamicResource FundoAlternativo}"
                TextColor="{DynamicResource TextoAlternativo}"/>
 
-            <Button
+                
+                <Button
                x:Name="dark"
                Text="Tema Escuro"
                Clicked="dark_Clicked"
@@ -51,7 +52,7 @@
             MaximumWidthRequest="200"
             BackgroundColor="{DynamicResource FundoAlternativo}"
             TextColor="{DynamicResource TextoAlternativo}"/>
-
+                                
             <Button
             x:Name="green"
             Text="Tema Verde"
@@ -69,7 +70,7 @@
             MaximumWidthRequest="200"
             BackgroundColor="{DynamicResource FundoAlternativo}"
             TextColor="{DynamicResource TextoAlternativo}"/>
-
+                
             <Button
            x:Name="default"
            Text="Default"
